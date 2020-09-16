@@ -1,0 +1,3 @@
+该文件夹中包含了deep coder的定义文件和预训练好的模型。
+其中multi_scale为旧版的deep coder，对应的模型是28.20_4.6M.pkl,该模型是一个中低码率的8通道模型
+Model文件为较新版的deep coder，该版去除了旧版中使用的BN层（实践证明BN层不太利于coded vision的再次训练），预训练模型为剩下的另外两个pkl文件
