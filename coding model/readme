@@ -1,3 +1,4 @@
-该文件夹中包含了deep coder的定义文件和预训练好的模型。
-其中multi_scale为旧版的deep coder，对应的模型是28.20_4.6M.pkl,该模型是一个中低码率的8通道模型
-Model文件为较新版的deep coder，该版去除了旧版中使用的BN层（实践证明BN层不太利于coded vision的再次训练），预训练模型为剩下的另外两个pkl文件
+Link to download pretrained models: http://yun.nju.edu.cn/d/d5e6865ee7/.
+The model named 28.20_4.6M.pkl is a pure coding model with low bit-rate.
+The 12000_0.94740096_0.00034681_1.54372260.pkl is a coding model with higher bit-rate and better reconstruction quality.
+The resnet_joint_epoch_200_71.pkl is a pretrained CodedVision model.
